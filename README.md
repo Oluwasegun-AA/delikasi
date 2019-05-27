@@ -1,27 +1,78 @@
 # Delikasi
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.2.
+[![Build Status](https://travis-ci.org/shegsteham/Swift-Foods.svg?branch=develop)](https://travis-ci.org/shegsteham/delikasi) ![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)
 
-## Development server
+## Table of Contents
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* [Project Overview](#Project-Overview)
+* [Features](#Features)
+* [Demo](#demo)
+* [Built with](#built-with)
+* [API End Points](#API-End-Points)
+* [Known Issues](#Known-issues)
+* [Installation](#Installation)
+* [Contributing](#contributing)
+* [License](#License)
 
-## Code scaffolding
+## Project Overview
+**Fast Food Fast** is a food delivery service app for restaurants. it was built from scratch using `Html` , `Css` , `TypeScript`, `Angular` and `Node.js`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Features
 
-## Build
+- Users can create an account and log in,
+- A user can add food to cart,
+- A user can order for food,
+- A user can see a history of ordered food,
+- A user can write a review/ query
+- The admin can add, edit or delete the fast-food items,
+- The admin can see a list of fast-food items,
+- The admin can See a list of orders,
+- The admin can accept and decline orders
+- The admin can mark orders as completed
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Demo
+![demogif](https://user-images.githubusercontent.com/25525765/46247609-baa42400-c405-11e8-923f-3df54b87ca0e.gif)
 
-## Running unit tests
+## Built with
+- `HTML 5`
+- `CSS`
+- `TypeScript`
+- `Angular`
+- `Node.js`
+- `Express framework`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+##### Middle Wares
+- `body-parser`
+- `morgan`
 
-## Running end-to-end tests
+## API End Points
+- `GET /api/v1/orders`                -   Fetches all Available Orders in the Database
+- `GET /api/v1/orders/< orderId >`    -   Fetches a particular order in the database
+- `POST /api/v1/orders/< orderId >`   -   Saves an Order in the database
+- `PUT /api/v1/orders/< orderId >`    -   Updates the status of an order in the database
+- `DELETE /api/v1/orders/< orderId >` -   Deletes an order in the database
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Known issues
+- None
 
-## Further help
+## Installation
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- $ git clone `https://github.com/shegsteham/delicasi.git`
+- $ cd delikasi
+- $ npm i , to install dependencies
+- Navigate to `http://localhost:4200/` on the browser
+
+## Contributing
+>  Feel free to 🍴 fork this repository
+
+>  👯 Clone this repository to your local machine using `https://github.com/shegsteham/delikasi.git`
+
+> Make Contributions
+
+> 🔃 Create a new pull request using `https://github.com/shegsteham/delikasi/compare`
+
+## License
+![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)
+
+- **[MIT license](https://shegsteham.github.io/Fast-Food-Fast/UI/LICENSE.md)**
+- Copyright 2018 © <a href="https://delikasi.herokuapp.com/" target="_blank">Fast-Food-Fast</a>
