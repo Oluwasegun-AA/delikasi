@@ -1,0 +1,41 @@
+<nav class="navBar">
+  <div class="headerContent">
+    <span class="logo">
+        <img src="assets/icons/logo.jpg" class="headerLogo" />
+    </span>
+
+    <div class="blink-caption">
+      <p class="text">
+        Great Taste
+        <span class="blin blink">Always</span>
+      </p>
+    </div>
+
+    <div class="navigation">
+      <div class="dropdown dropdown-avarter">
+        <img src="assets/icons/avarter.ico" class="avarter" alt="user-avatar" />
+        <div class="dropdown-content">
+          <a class="sign out" to="/" onClick={signOut}>Signout</a>
+          <a class="menu" to="/menu">Menu</a>
+          <a class="contact" to="/contact">Contact</a>
+        </div>
+      </div>
+      <div class="dropdown dropdown-account">
+        <span class="dropbtn">My Account</span>
+        <div class="dropdown-content">
+          <a to="/active/orders">Active Orders</a>
+          <a to="/order/history">Order History</a>
+          <a to="/support">Support</a>
+        </div>
+      </div>
+      <a id="cart" class="cart" to="/cart">
+        <span class="cartName">cart</span>
+        <div class="cartImageAndWeight">
+          <img src="assets/icons/cart.png" class="cartImage" />
+          <span class="cartWeight">{{cartWeight}}</span>
+        </div>
+      </a>
+      <a id="menu" class="menu" to="/menu"><span>Menu</span></a>
+    </div>
+  </div>
+</nav>
