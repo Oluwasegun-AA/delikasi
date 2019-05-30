@@ -15,7 +15,7 @@
 * [License](#License)
 
 ## Project Overview
-**Fast Food Fast** is a food delivery service app for restaurants. it was built from scratch using `Html` , `Css` , `TypeScript`, `Angular` and `Node.js`
+**Delikasi** is a food delivery service app for restaurants. it was built from scratch using `Html` , `Css` , `TypeScript`, `Angular` and `Node.js`
 
 ## Features
 
@@ -24,8 +24,8 @@
 - A user can order for food,
 - A user can see a history of ordered food,
 - A user can write a review/ query
-- The admin can add, edit or delete the fast-food items,
-- The admin can see a list of fast-food items,
+- The admin can add, edit or delete items,
+- The admin can see a list of items,
 - The admin can See a list of orders,
 - The admin can accept and decline orders
 - The admin can mark orders as completed
@@ -75,4 +75,4 @@
 ![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)
 
 - **[MIT license](https://shegsteham.github.io/Fast-Food-Fast/UI/LICENSE.md)**
-- Copyright 2018 © <a href="https://delikasi.herokuapp.com/" target="_blank">Fast-Food-Fast</a>
+- Copyright 2018 © <a href="https://delikasi.herokuapp.com/" target="_blank">Delikasi</a>

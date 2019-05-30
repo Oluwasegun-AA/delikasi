@@ -1,0 +1,13 @@
+@import"src/assets/styles/navbar.scss";
+
+.login,
+.signup{
+  margin-top: 12px;
+  padding-bottom: 10px;
+  margin-left: 15px;
+}
+
+.login:hover,
+.signup:hover{
+  border-bottom: solid 5px burlywood;
+}
