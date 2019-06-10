@@ -1,6 +1,6 @@
 # Delikasi
 
-[![Build Status](https://travis-ci.org/shegsteham/Swift-Foods.svg?branch=develop)](https://travis-ci.org/shegsteham/delikasi) ![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)
+[![Build Status](https://travis-ci.org/shegsteham/delikasi.svg?branch=develop)](https://travis-ci.org/shegsteham/delikasi)   [![CircleCI](https://circleci.com/gh/shegsteham/delikasi/tree/develop.svg?style=svg)](https://circleci.com/gh/shegsteham/delikasi/tree/develop)  ![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)
 
 ## Table of Contents
 
