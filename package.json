@@ -5,7 +5,8 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "test": "ng test --code-coverage true && cat ./coverage/*/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+    "test": "ng test --browsers=Chrome--code-coverage=true && cat ./coverage/*/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+    "test-headless": "ng test --browsers=Chrome_without_security --code-coverage=true --watch=false",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
@@ -33,9 +34,9 @@
     "@angular/cli": "7.3.2",
     "@angular/compiler-cli": "7.2.0",
     "@angular/language-service": "7.2.0",
-    "@types/node": "8.9.4",
     "@types/jasmine": "2.8.8",
     "@types/jasminewd2": "2.0.3",
+    "@types/node": "8.9.4",
     "codelyzer": "4.5.0",
     "jasmine-core": "2.99.1",
     "jasmine-spec-reporter": "4.2.1",
@@ -45,6 +46,7 @@
     "karma-jasmine": "1.1.2",
     "karma-jasmine-html-reporter": "0.2.2",
     "protractor": "5.4.0",
+    "puppeteer": "1.18.1",
     "ts-node": "7.0.0",
     "tslint": "5.11.0",
     "typescript": "3.2.2"
