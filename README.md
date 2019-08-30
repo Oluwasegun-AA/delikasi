@@ -42,11 +42,10 @@
 - `Express framework`
 
 ##### Middle Wares
-- `body-parser`
-- `morgan`
+- 
 
 ## API End Points
-
+-
 
 ## Known issues
 - None
