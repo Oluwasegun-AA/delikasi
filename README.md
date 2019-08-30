@@ -42,15 +42,10 @@
 - `Express framework`
 
 ##### Middle Wares
-- `body-parser`
-- `morgan`
+- 
 
 ## API End Points
-- `GET /api/v1/orders`                -   Fetches all Available Orders in the Database
-- `GET /api/v1/orders/< orderId >`    -   Fetches a particular order in the database
-- `POST /api/v1/orders/< orderId >`   -   Saves an Order in the database
-- `PUT /api/v1/orders/< orderId >`    -   Updates the status of an order in the database
-- `DELETE /api/v1/orders/< orderId >` -   Deletes an order in the database
+-
 
 ## Known issues
 - None
@@ -74,5 +69,5 @@
 ## License
 ![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)
 
-- **[MIT license](https://shegsteham.github.io/Fast-Food-Fast/UI/LICENSE.md)**
+- **[MIT license]()**
 - Copyright 2018 © <a href="https://delikasi.herokuapp.com/" target="_blank">Delikasi</a>
